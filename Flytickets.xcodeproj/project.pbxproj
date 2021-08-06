@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		4468A81926BCE28F00A28D02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4468A81826BCE28F00A28D02 /* AppDelegate.swift */; };
 		4468A81B26BCE28F00A28D02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4468A81A26BCE28F00A28D02 /* SceneDelegate.swift */; };
-		4468A81D26BCE28F00A28D02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4468A81C26BCE28F00A28D02 /* ViewController.swift */; };
 		4468A82026BCE28F00A28D02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4468A81E26BCE28F00A28D02 /* Main.storyboard */; };
 		4468A82226BCE29A00A28D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4468A82126BCE29A00A28D02 /* Assets.xcassets */; };
 		4468A82526BCE29A00A28D02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4468A82326BCE29A00A28D02 /* LaunchScreen.storyboard */; };
+		4468A82D26BCE39F00A28D02 /* AddFlightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4468A82C26BCE39F00A28D02 /* AddFlightTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4468A81526BCE28F00A28D02 /* Flytickets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flytickets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4468A81826BCE28F00A28D02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4468A81A26BCE28F00A28D02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4468A81C26BCE28F00A28D02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4468A81F26BCE28F00A28D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4468A82126BCE29A00A28D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4468A82426BCE29A00A28D02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4468A82626BCE29A00A28D02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4468A82C26BCE39F00A28D02 /* AddFlightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlightTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				4468A81826BCE28F00A28D02 /* AppDelegate.swift */,
 				4468A81A26BCE28F00A28D02 /* SceneDelegate.swift */,
-				4468A81C26BCE28F00A28D02 /* ViewController.swift */,
 				4468A81E26BCE28F00A28D02 /* Main.storyboard */,
+				4468A82C26BCE39F00A28D02 /* AddFlightTableViewController.swift */,
 				4468A82126BCE29A00A28D02 /* Assets.xcassets */,
 				4468A82326BCE29A00A28D02 /* LaunchScreen.storyboard */,
 				4468A82626BCE29A00A28D02 /* Info.plist */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4468A81D26BCE28F00A28D02 /* ViewController.swift in Sources */,
+				4468A82D26BCE39F00A28D02 /* AddFlightTableViewController.swift in Sources */,
 				4468A81926BCE28F00A28D02 /* AppDelegate.swift in Sources */,
 				4468A81B26BCE28F00A28D02 /* SceneDelegate.swift in Sources */,
 			);
